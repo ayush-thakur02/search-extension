@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Search",
+  "version": "1.0",
+  "description": "Valorant Search Tab",
+  "author": "Ayush Thakur",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"]
+    ,
+  "icons": {
+    "16": "ms-icon-310x310.png",
+    "128": "ms-icon-310x310.png"
+  }
+}

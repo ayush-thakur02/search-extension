@@ -1,0 +1,80 @@
+/* 
+    Github - @ayush-thakur02
+    Bio Link - bio.link/ayush_thakur02
+    
+    Note:
+    The Background Images are Free to use and License free!
+    If you have any problem message me via bio link or create an Issue in Github.
+*/
+
+body {
+    height: 96%;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    caret-color: transparent;
+}
+
+.search-container:hover>.search-input {
+    width: 400px;
+}
+
+.search-container .search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.search-container .search-btn .fas {
+    text-align: right;
+    margin-right: 0px;
+}
+
+@keyframes hoverShake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.search-container:hover {
+    animation: hoverShake 0.15s linear 3;
+    caret-color: #000000;
+    background-color: white;
+    padding-left: 20px;
+}
