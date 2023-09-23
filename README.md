@@ -11,7 +11,7 @@ First, download the extension by clicking the button below:
 
 <div align="center" markdown=1>
 
-[![Resume](https://img.shields.io/badge/Download_Extension-black?style=for-the-badge&logo=ghost&logoColor=white)](https://cdn.discordapp.com/attachments/1042506781592666122/1042506866636365904/searchTAB.zip)
+[![Resume](https://img.shields.io/badge/Download_Extension-black?style=for-the-badge&logo=ghost&logoColor=white)](https://github.com/ayush-thakur02/search-extension/archive/refs/heads/main.zip)
 
 </div>
 
